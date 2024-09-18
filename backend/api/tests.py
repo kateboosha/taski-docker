@@ -10,6 +10,7 @@ class TaskiAPITestCase(TestCase):
     """Tests taski."""
 
     def setUp(self):
+        """Сетап."""
         self.guest_client = Client()
 
     def test_list_exists(self):
